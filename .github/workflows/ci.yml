@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: pytest -q
+      - name: Smoke test (offline mock backend)
+        run: |
+          ugc-script-gen hooks examples/briefs/driftwell-sleep-mask.toml -n 5 --offline
+          ugc-script-gen generate examples/briefs/tidepool-hydration.toml -n 3 --offline -o out
+          test -n "$(ls out/*.md)"

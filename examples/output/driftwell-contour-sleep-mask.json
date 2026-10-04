@@ -1,0 +1,234 @@
+[
+  {
+    "brand": "Driftwell",
+    "product": "Contour Sleep Mask",
+    "format": "three_reasons",
+    "format_title": "3 reasons listicle",
+    "platform": "tiktok",
+    "duration": 30,
+    "hook": "3 things I wish I knew before trying Contour Sleep Mask.",
+    "beats": [
+      {
+        "name": "hook",
+        "start": 0.0,
+        "end": 3.5,
+        "shot": "Creator holds up three fingers, product in other hand",
+        "vo": "3 things I wish I knew before trying Contour Sleep Mask.",
+        "on_screen": "3 reasons ↓",
+        "broll": ""
+      },
+      {
+        "name": "reason_1",
+        "start": 3.5,
+        "end": 10.0,
+        "shot": "Demo shot #1",
+        "vo": "One: the room goes properly pitch black.",
+        "on_screen": "1. the room goes properly pitch black",
+        "broll": ""
+      },
+      {
+        "name": "reason_2",
+        "start": 10.0,
+        "end": 16.5,
+        "shot": "Demo shot #2, different angle",
+        "vo": "Two: nothing touches my eyelids.",
+        "on_screen": "2. nothing touches my eyelids",
+        "broll": ""
+      },
+      {
+        "name": "reason_3",
+        "start": 16.5,
+        "end": 23.5,
+        "shot": "Demo shot #3, payoff moment",
+        "vo": "And three, the big one: I actually sleep through till my alarm.",
+        "on_screen": "3. I actually sleep through till my alarm",
+        "broll": ""
+      },
+      {
+        "name": "cta",
+        "start": 23.5,
+        "end": 30.0,
+        "shot": "Product hero on clean background, creator VO",
+        "vo": "4.8 stars from 2,100 reviews, so it's not just me. It's 20% off this week. Tap the link to try it.",
+        "on_screen": "Tap the link to try it ↓",
+        "broll": ""
+      }
+    ],
+    "score": {
+      "total": 99.4,
+      "components": {
+        "hook": 97.9,
+        "pacing": 100.0,
+        "coverage": 100.0,
+        "proof": 100.0,
+        "cta": 100.0,
+        "compliance": 100.0
+      },
+      "flags": []
+    },
+    "llm": "mock",
+    "notes": [
+      "Aspect 9:16 for tiktok; keep captions inside the centre safe zone.",
+      "Burn in captions: most short-form views start muted.",
+      "Hook must land in the first 1.5s; cut any lead-in breath."
+    ]
+  },
+  {
+    "brand": "Driftwell",
+    "product": "Contour Sleep Mask",
+    "format": "problem_solution",
+    "format_title": "Problem → Solution",
+    "platform": "tiktok",
+    "duration": 30,
+    "hook": "I tried Contour Sleep Mask for 7 days. Here's what happened.",
+    "beats": [
+      {
+        "name": "hook",
+        "start": 0.0,
+        "end": 3.5,
+        "shot": "Selfie close-up, handheld, creator looks straight to lens",
+        "vo": "I tried Contour Sleep Mask for 7 days. Here's what happened.",
+        "on_screen": "I tried Contour Sleep Mask for 7…",
+        "broll": ""
+      },
+      {
+        "name": "problem",
+        "start": 3.5,
+        "end": 9.0,
+        "shot": "Medium shot acting out the frustration",
+        "vo": "Every single time, waking up at 5am when the sun comes up. I'd tried everything.",
+        "on_screen": "the struggle: waking up at 5am when the sun comes up",
+        "broll": "Quick cut of the problem in real life"
+      },
+      {
+        "name": "solution",
+        "start": 9.0,
+        "end": 17.5,
+        "shot": "Product hero shot, then hands-on demo",
+        "vo": "So I tried Contour Sleep Mask. The moulded cups sit around your eyes, not on them.",
+        "on_screen": "Contour Sleep Mask",
+        "broll": "Macro of product texture / UI / detail"
+      },
+      {
+        "name": "benefits",
+        "start": 17.5,
+        "end": 24.0,
+        "shot": "Over-the-shoulder use in a real setting",
+        "vo": "Now the room goes properly pitch black, and nothing touches my eyelids.",
+        "on_screen": "✓ the room goes properly pitch black · ✓ nothing touches my eyelids",
+        "broll": ""
+      },
+      {
+        "name": "proof",
+        "start": 24.0,
+        "end": 26.5,
+        "shot": "Screen recording of reviews or close-up of packaging",
+        "vo": "4.8 stars from 2,100 reviews, so it's not just me.",
+        "on_screen": "4.8 stars from 2,100 reviews",
+        "broll": ""
+      },
+      {
+        "name": "cta",
+        "start": 26.5,
+        "end": 30.0,
+        "shot": "Back to selfie, product held next to face",
+        "vo": "It's 20% off this week. Tap the link to try it.",
+        "on_screen": "Tap the link to try it ↓",
+        "broll": ""
+      }
+    ],
+    "score": {
+      "total": 92.7,
+      "components": {
+        "hook": 97.9,
+        "pacing": 100.0,
+        "coverage": 66.7,
+        "proof": 100.0,
+        "cta": 100.0,
+        "compliance": 100.0
+      },
+      "flags": []
+    },
+    "llm": "mock",
+    "notes": [
+      "Tightened: shortest line variants used and sign-off removed to fit the runtime.",
+      "Aspect 9:16 for tiktok; keep captions inside the centre safe zone.",
+      "Burn in captions: most short-form views start muted.",
+      "Hook must land in the first 1.5s; cut any lead-in breath."
+    ]
+  },
+  {
+    "brand": "Driftwell",
+    "product": "Contour Sleep Mask",
+    "format": "before_after",
+    "format_title": "Before / after",
+    "platform": "tiktok",
+    "duration": 30,
+    "hook": "Me before Contour Sleep Mask vs. me after.",
+    "beats": [
+      {
+        "name": "hook",
+        "start": 0.0,
+        "end": 3.5,
+        "shot": "Split screen: before (left) / after (right)",
+        "vo": "Me before Contour Sleep Mask vs. me after.",
+        "on_screen": "before ➜ after",
+        "broll": ""
+      },
+      {
+        "name": "before",
+        "start": 3.5,
+        "end": 10.0,
+        "shot": "Desaturated 'before' footage",
+        "vo": "This was me. Streetlight leaking into the bedroom, every day.",
+        "on_screen": "BEFORE",
+        "broll": ""
+      },
+      {
+        "name": "switch",
+        "start": 10.0,
+        "end": 15.5,
+        "shot": "Snap-transition into product reveal",
+        "vo": "Then I switched to Contour Sleep Mask. The moulded cups sit around your eyes, not on them.",
+        "on_screen": "the switch",
+        "broll": ""
+      },
+      {
+        "name": "after",
+        "start": 15.5,
+        "end": 24.0,
+        "shot": "Bright, saturated 'after' footage",
+        "vo": "After: the room goes properly pitch black. And nothing touches my eyelids.",
+        "on_screen": "AFTER",
+        "broll": "Same location as 'before' for contrast"
+      },
+      {
+        "name": "cta",
+        "start": 24.0,
+        "end": 30.0,
+        "shot": "Creator to camera",
+        "vo": "It's 20% off this week. Tap the link to try it. Honestly? Obsessed.",
+        "on_screen": "Tap the link to try it ↓",
+        "broll": ""
+      }
+    ],
+    "score": {
+      "total": 84.3,
+      "components": {
+        "hook": 90.0,
+        "pacing": 100.0,
+        "coverage": 66.7,
+        "proof": 40.0,
+        "cta": 100.0,
+        "compliance": 100.0
+      },
+      "flags": []
+    },
+    "llm": "mock",
+    "notes": [
+      "Aspect 9:16 for tiktok; keep captions inside the centre safe zone.",
+      "Burn in captions: most short-form views start muted.",
+      "Hook must land in the first 1.5s; cut any lead-in breath."
+    ]
+  }
+]

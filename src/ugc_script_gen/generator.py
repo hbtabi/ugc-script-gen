@@ -161,7 +161,7 @@ def build_script(brief: Brief, fmt_key: str, hook: str, rng: random.Random, pain
     fmt = FORMATS[fmt_key]
     ctx = build_context(brief, pain)
     ctx["hook"] = hook
-    ctx["hook_short"] = _short(hook).lower()
+    ctx["hook_short"] = _short(hook)
     ctx["hook_listicle"] = ctx["hook_before_after"] = hook
     ctx["signoff"] = rng.choice(TONE_SIGNOFFS[brief.tone])
     src = list(fmt.beats)
