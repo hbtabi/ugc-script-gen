@@ -38,7 +38,7 @@ def to_json(items) -> str:
 
 
 def _color() -> bool:
-    return bool(os.environ.get("FORCE_COLOR")) or (sys.stdout.isatty() and not os.environ.get("NO_COLOR"))
+    return os.environ.get("FORCE_COLOR", "") not in ("", "0") or (sys.stdout.isatty() and not os.environ.get("NO_COLOR"))
 
 
 def _c(code: str, s: str) -> str:
