@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ugc-script-gen"
+version = "0.1.0"
+description = "Generate shot-ready short-form UGC ad scripts and scored hooks from a product brief."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed Hassan bin Tayyeb", email = "hasaantayyb1@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = []
+keywords = ["ugc", "ad-scripts", "short-form-video", "copywriting", "llm", "tiktok"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Multimedia :: Video",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+ugc-script-gen = "ugc_script_gen.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "B905"]
