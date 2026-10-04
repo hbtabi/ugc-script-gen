@@ -1,0 +1,15 @@
+# Fictional brand for demo purposes only.
+brand = "Tidepool"
+product = "Electrolyte Tabs"
+category = "hydration tablet"
+audience = "runners and gym-goers"
+pain_points = ["hitting a wall halfway through a long run", "sugary sports drinks", "post-gym headaches"]
+benefits = ["one tab turns plain water into a proper electrolyte drink", "zero sugar and only 10 calories", "I feel fresh for the last 5k"]
+usp = "Drop one in a bottle and it's ready in 90 seconds."
+proof = ["over 40,000 tubes sold in the UK"]
+offer = "Starter pack is £9 with free delivery"
+cta = "Grab the starter pack at the link"
+tone = "playful"
+platform = "reels"
+duration = 20
+banned_claims = ["cure", "prevents dehydration"]

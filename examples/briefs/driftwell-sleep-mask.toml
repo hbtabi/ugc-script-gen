@@ -1,0 +1,15 @@
+# Fictional brand for demo purposes only.
+brand = "Driftwell"
+product = "Contour Sleep Mask"
+category = "sleep mask"
+audience = "light sleepers"
+pain_points = ["waking up at 5am when the sun comes up", "streetlight leaking into the bedroom", "masks that press on your eyes"]
+benefits = ["the room goes properly pitch black", "nothing touches my eyelids", "I actually sleep through till my alarm"]
+usp = "The moulded cups sit around your eyes, not on them."
+proof = ["4.8 stars from 2,100 reviews"]
+offer = "It's 20% off this week"
+cta = "Tap the link to try it"
+tone = "casual"
+platform = "tiktok"
+duration = 30
+banned_claims = ["cure insomnia", "medical"]
